@@ -8,20 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		515814641D63CDF1006394B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515814631D63CDF1006394B4 /* AppDelegate.swift */; };
-		515814661D63CDF1006394B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515814651D63CDF1006394B4 /* ViewController.swift */; };
 		515814691D63CDF1006394B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515814671D63CDF1006394B4 /* Main.storyboard */; };
 		5158146B1D63CDF1006394B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5158146A1D63CDF1006394B4 /* Assets.xcassets */; };
 		5158146E1D63CDF1006394B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5158146C1D63CDF1006394B4 /* LaunchScreen.storyboard */; };
+		515814791D63CE29006394B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515814781D63CE29006394B4 /* User.swift */; };
+		5158147D1D63CE5B006394B4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5158147C1D63CE5B006394B4 /* Post.swift */; };
+		515814811D64C946006394B4 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515814801D64C946006394B4 /* CloudKitManager.swift */; };
+		515814841D64F84F006394B4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515814831D64F84F006394B4 /* CloudKit.framework */; };
+		515814861D650C59006394B4 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515814851D650C59006394B4 /* UserController.swift */; };
+		515814881D67A0F9006394B4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515814871D67A0F9006394B4 /* Message.swift */; };
+		5158148A1D67A1DC006394B4 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515814891D67A1DC006394B4 /* Channel.swift */; };
+		5158148C1D67BBF0006394B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5158148B1D67BBF0006394B4 /* ViewController.swift */; };
+		5158148E1D6B734E006394B4 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5158148D1D6B734E006394B4 /* MessageController.swift */; };
+		515814901D6B7360006394B4 /* ChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5158148F1D6B7360006394B4 /* ChannelController.swift */; };
+		515814921D6B737B006394B4 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515814911D6B737B006394B4 /* PostController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		515814601D63CDF1006394B4 /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515814631D63CDF1006394B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		515814651D63CDF1006394B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		515814681D63CDF1006394B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5158146A1D63CDF1006394B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5158146D1D63CDF1006394B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5158146F1D63CDF1006394B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515814781D63CE29006394B4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5158147C1D63CE5B006394B4 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		515814801D64C946006394B4 /* CloudKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		515814821D64F84C006394B4 /* Chat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Chat.entitlements; sourceTree = "<group>"; };
+		515814831D64F84F006394B4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		515814851D650C59006394B4 /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		515814871D67A0F9006394B4 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		515814891D67A1DC006394B4 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		5158148B1D67BBF0006394B4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5158148D1D6B734E006394B4 /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		5158148F1D6B7360006394B4 /* ChannelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelController.swift; sourceTree = "<group>"; };
+		515814911D6B737B006394B4 /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515814841D64F84F006394B4 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +60,7 @@
 		515814571D63CDF1006394B4 = {
 			isa = PBXGroup;
 			children = (
+				515814831D64F84F006394B4 /* CloudKit.framework */,
 				515814621D63CDF1006394B4 /* Chat */,
 				515814611D63CDF1006394B4 /* Products */,
 			);
@@ -54,14 +77,48 @@
 		515814621D63CDF1006394B4 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				515814821D64F84C006394B4 /* Chat.entitlements */,
 				515814631D63CDF1006394B4 /* AppDelegate.swift */,
-				515814651D63CDF1006394B4 /* ViewController.swift */,
 				515814671D63CDF1006394B4 /* Main.storyboard */,
+				515814771D63CE09006394B4 /* View */,
+				515814761D63CE03006394B4 /* Controller */,
+				515814751D63CDF7006394B4 /* Model */,
 				5158146A1D63CDF1006394B4 /* Assets.xcassets */,
 				5158146C1D63CDF1006394B4 /* LaunchScreen.storyboard */,
 				5158146F1D63CDF1006394B4 /* Info.plist */,
 			);
 			path = Chat;
+			sourceTree = "<group>";
+		};
+		515814751D63CDF7006394B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				515814781D63CE29006394B4 /* User.swift */,
+				515814891D67A1DC006394B4 /* Channel.swift */,
+				515814871D67A0F9006394B4 /* Message.swift */,
+				5158147C1D63CE5B006394B4 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		515814761D63CE03006394B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				515814801D64C946006394B4 /* CloudKitManager.swift */,
+				515814851D650C59006394B4 /* UserController.swift */,
+				5158148F1D6B7360006394B4 /* ChannelController.swift */,
+				5158148D1D6B734E006394B4 /* MessageController.swift */,
+				515814911D6B737B006394B4 /* PostController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		515814771D63CE09006394B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5158148B1D67BBF0006394B4 /* ViewController.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +153,13 @@
 				TargetAttributes = {
 					5158145F1D63CDF1006394B4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M3Z74MK3M2;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,8 +199,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				515814661D63CDF1006394B4 /* ViewController.swift in Sources */,
+				5158148A1D67A1DC006394B4 /* Channel.swift in Sources */,
+				5158148E1D6B734E006394B4 /* MessageController.swift in Sources */,
+				515814861D650C59006394B4 /* UserController.swift in Sources */,
+				515814901D6B7360006394B4 /* ChannelController.swift in Sources */,
+				515814921D6B737B006394B4 /* PostController.swift in Sources */,
+				515814791D63CE29006394B4 /* User.swift in Sources */,
 				515814641D63CDF1006394B4 /* AppDelegate.swift in Sources */,
+				515814881D67A0F9006394B4 /* Message.swift in Sources */,
+				5158147D1D63CE5B006394B4 /* Post.swift in Sources */,
+				5158148C1D67BBF0006394B4 /* ViewController.swift in Sources */,
+				515814811D64C946006394B4 /* CloudKitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +324,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Chat/Chat.entitlements;
 				INFOPLIST_FILE = Chat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.StevenPatterson.Chat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -262,10 +337,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Chat/Chat.entitlements;
 				INFOPLIST_FILE = Chat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.StevenPatterson.Chat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -288,6 +365,7 @@
 				515814741D63CDF1006394B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
